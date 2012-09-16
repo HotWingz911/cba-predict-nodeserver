@@ -66,7 +66,7 @@ function getAccounts(){
 //ensures a pretty number is provided to customer
 function roundUp(amt, val){
 	if(val < 1) {val = 1}
-	return (amt + (amt % val));
+	return (amt + (val - amt % val))
 }
 
 //db
