@@ -60,7 +60,7 @@ function getDate(){
 
 //db
 function getAccounts(){
-	return {"accounts":[{"id":"Gold Saver"},{"id":"Silver Saver My Piggy Bank"},{"id":"CBA build home My House account"},{"id":"Orange Transactions"}, {"id":"Bankwest Saver"}, {"id":"Silver credit card My expensive account"}]}
+	return {"accounts":[{"id":"Gold Saver"},{"id":"Silver Saver - My Piggy Bank"},{"id":"CBA build home - My House account"},{"id":"Orange Transactions"}, {"id":"Bankwest Saver"}, {"id":"Silver credit card - My expensive account"}]}
 }
 
 //ensures a pretty number is provided to customer
@@ -81,12 +81,12 @@ function getAmount(){
 
 //google?
 function getFrom(){
-	return {"fromAccountID":"Account 1"}
+	return {"fromAccountID":"Gold Saver"}
 }
 
 //random from list of accounts?
 function getTo(){
-	return {"toAccountID":"Account 2"};
+	return {"toAccountID":"Silver credit card - My expensive account"};
 }
 
 //old excessive json, - reference purposes only.
