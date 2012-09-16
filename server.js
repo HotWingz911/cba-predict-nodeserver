@@ -1,4 +1,4 @@
-var port = "8124";
+var port = process.env.port ||  8124;
 
 var http = require('http'),
     url = require('url'),
