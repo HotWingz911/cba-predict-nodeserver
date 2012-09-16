@@ -21,16 +21,17 @@ http.createServer(function (req, res) {
 		var path = url.parse(req.url).pathname;
 		console.log(getDate() + " - REQUEST:   '" + path + "'");
 
+    var values = path.split('/')
     var payload = {
-      'id': 'reg1',
+      'id': values[1],
       'input': {
         'csvInstance': [
-          'Friday'
+          values[1]
         ]
       }
     }
-
-    predict.predict.predict('reg1', payload, function(result) {
+   
+    predict.predict.predict(values[1], payload, function(result) {
       //do stuff
 
       var data = Hash({}).mergeAll([getAccounts(),
