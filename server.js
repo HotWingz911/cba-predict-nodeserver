@@ -60,7 +60,7 @@ function getDate(){
 
 //db
 function getAccounts(){
-	return {"accounts":[{"id":"Account 1"},{"id":"Account 2"},{"id":"Account 3"},{"id":"Account 4"}]}
+	return {"accounts":[{"id":"Gold Saver"},{"id":"Silver Saver My Piggy Bank"},{"id":"CBA build home My House account"},{"id":"Orange Transactions"}, {"id":"Bankwest Saver"}, {"id":"Silver credit card My expensive account"}]}
 }
 
 //ensures a pretty number is provided to customer
