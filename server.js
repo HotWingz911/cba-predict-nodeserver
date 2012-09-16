@@ -62,6 +62,12 @@ function getAccounts(){
 	return {"accounts":[{"id":"Account 1"},{"id":"Account 2"},{"id":"Account 3"},{"id":"Account 4"}]}
 }
 
+//ensures a pretty number is provided to customer
+function roundUp(amt, val){
+	if(val < 1) {val = 1}
+	return (amt + (amt % val));
+}
+
 //db
 function getIdentity(){
 	return {"netbankId":"12345678","friendlyName":"Mr John Smith"}
