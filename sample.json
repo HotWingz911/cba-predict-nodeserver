@@ -1,0 +1,15 @@
+{"result":
+	{
+		"accounts": [
+			{"id": "Account 1"},
+			{"id": "Account 2"},
+			{"id": "Account 3"},
+			{"id": "Account 4"}
+		],
+		"netbankId": "12345678",
+		"friendlyName": "Mr John Smith",
+		"amount": "2",
+		"fromAccountID": "Account 1",
+		"toAccountID":"Account 2"
+	 }
+}

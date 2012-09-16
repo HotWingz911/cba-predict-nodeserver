@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Server for TopCoder entry",
+  
+  "dependencies": {
+    "hashish": "0.0.4",
+    "node-google-prediction": "https://github.com/poozleton/node-google-prediction/tarball/master"
+  }
+}
