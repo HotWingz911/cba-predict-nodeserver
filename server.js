@@ -39,7 +39,7 @@ http.createServer(function (req, res) {
         getFrom(),
         getTo()]).items
 
-        data.amount = result.outputValue
+        data.amount = roundUp(result.outputValue, 10)
 
       var x = { 'result': data }
       
